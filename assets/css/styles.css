@@ -1,12 +1,127 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu&display=swap');
 
 body{
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif ;
 }
 
 .container{
     display: flex;
+    
 }
  aside{
     width: 25%;
  }
+
+.foto-perfil img{
+    height: 3rem;
+    border-radius: 50%;
+    border: #e0e0e0 solid 2px;
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.7rem 1.25rem 0.7rem 1rem;
+}
+
+.first{
+    display: flex;
+}
+
+.primer-texto{
+    padding-top: 0.7rem;
+    padding-left: 1.7rem;
+}
+.nombre{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.estado{
+    font-size: 0.8rem;
+    font-weight:300 ;
+    color: #b7b8b8;
+}
+
+.icons{
+    color: #959797;
+}
+.fa-regular{
+    padding-right: 0.7rem;
+
+}
+
+button{
+    background-color: #1a9b2b;
+    font-size: 1rem;
+    color: #fff;
+    border: none;
+    border-radius: 1rem;
+    padding: 0.9rem 1rem;
+
+}
+
+button:hover{
+    background-color: #43463d;
+    cursor:pointer;
+}
+
+.nueva-conversacion{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.chats img{
+    height: 3rem;
+    border-radius: 50%;
+    border: #e0e0c0 solid 2px;
+}
+
+.chat-active{
+    font-size: 0.875rem;
+    font-weight: 300;
+
+}
+
+.chats{
+    display: flex;
+    padding-left: 1.5rem;
+    border-top: #363437 solid 1px;
+    padding: 1rem 1.25rem 1rem 1.6rem;
+}
+
+.chats :hover{
+    background-color: #e0e0e0;
+    border-radius: 0.5rem;
+    cursor: pointer;
+
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+main img{
+    height: 17.5rem;
+    border-radius: 0.8rem;
+}
+
+main h1{
+    font-weight: 400;
+    font-size: 3rem;
+    margin-top: 0;
+    padding-bottom: 0.7rem;
+}
+ main h2{
+    font-size: 1rem;
+    font-weight: 300;
+    margin: 0;
+ }
+ 
